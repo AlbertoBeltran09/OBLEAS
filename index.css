@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-bg.jpg') center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+}
+
+#about {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.project {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-items: auto;
+    
+}
+
+.project img {
+    width: 100%;
+}
+
+.card {
+    background-color: grey;
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.portfolio {
+    background-color: aquamarine;
+}
+
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
